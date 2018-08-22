@@ -14,9 +14,13 @@ html,body{
   padding-right: 20px;
 
 }
+.text-color{
+  color: rgb(226, 170, 29);
+}
 .nav-link
 {
   font-size: 1.5em !important;
+  color: #FFA500;
 }
 .carousel-inner img {
   width: 100%;
