@@ -7,7 +7,6 @@ html,body{
   color: #222; 
 }
 .navbar {
-
   padding-bottom: 1px;
 }
 .navbar-nav li {
@@ -15,7 +14,7 @@ html,body{
 
 }
 .text-color{
-  color: rgb(226, 170, 29);
+  color: rgb(255, 255, 255);
 }
 .nav-link
 {
@@ -172,10 +171,40 @@ figure {
 [class*="col-"] {
     padding: 1rem;
 }
+.css-typing {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+    animation-iteration-count: infinite;
+}
+.writer{
+  color: red;
+}
+@keyframes typing {
+  from { width: 0 }
+  to { width: 25% }
+}
 
-
-
-
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
+}
+.typing{
+  margin-top: 0vw;
+  color: #d5d5d5;
+}
+.block-image{
+  display: block;
+  width: 100vw;
+  height: 55.3vw;
+  text-align: center;
+  background: #000;
+}
 
 /*
 Extra small (xs) devices (portrait phones, less than 576px)
@@ -193,11 +222,3 @@ Large (lg) devices (desktops, 992px and up)
 Extra (xl) large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) { ... }
 */
-
-
-
-
-
-
-
-
