@@ -9,6 +9,10 @@ html,body{
 .navbar {
   padding-bottom: 1px;
 }
+.nav-link:hover {
+  background: rgb(168, 19, 19);
+  color: #000;
+}
 .navbar-nav li {
   padding-right: 20px;
 
