@@ -4,6 +4,7 @@
     <title>
         Log In
     </title>
+        <script src="js/jslogin.js"> </script>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
     <link href="style_login.css" rel="stylesheet">
     </head>
@@ -20,11 +21,11 @@
                         <i class="fas fa-user-circle fa-7x"></i>
         <div class="position">
                 <form action="/">
-                    <input type="text" placeholder="Username"> 
+                    <input type="text" placeholder="Username" id="username"> 
                     <br>
-                    <input type="password" placeholder="Password">
+                    <input type="password" placeholder="Password" id="password">
                     <br><br>
-                    <button class="left" type="submit">Log In</button> 
+                    <button class="left" type="submit" onclick="validate()">Log In</button> 
                   </form></div>
                  
         </div>
